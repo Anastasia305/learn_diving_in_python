@@ -11,3 +11,11 @@ This course is part of the Python Programming Specialization
 3) Исполнение полученного кода. На этом этапе вступает в действие виртуальная машина Python (PVM), которая циклично перебирает каждый оператор из скрипта и запускает его на исполнение. Как будто вы вводите каждую команду последовательно в интерактивном интерпретаторе.
 
 REPL (от англ. read-eval-print loop — «цикл „чтение — вычисление — вывод“») — форма организации простой интерактивной среды программирования в рамках средств интерфейса командной строки. 
+## Useful links
+[Документация Python](https://docs.python.org/3/)
+
+[PEP8](https://www.python.org/dev/peps/pep-0008/)
+
+[Утилита autopep8,](https://pypi.org/project/autopep8/)
+
+[Коллекция полезных библиотек](https://github.com/vinta/awesome-python)
