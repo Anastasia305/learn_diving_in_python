@@ -337,6 +337,117 @@ f"{}"
 ## Втроенная функция input()
 
 
+## Объект None
+None - это объект специального типа NoneType, который нужен для обозначения отсутствия значения(аналогично нулевому указателю в С).
+
+```
+>>> answer = None
+>>> print(type(None))
+<class 'NoneType'>
+>>> bool(None)
+False
+>>> answer = None
+>>> if not answer:
+...     print("Ответ не получен")
+...
+Ответ не получен
+>>> income = 0
+>>> if not income:
+...     print("Ничего не заработали")
+...
+Ничего не заработали
+>>> income = None
+>>> if income is None:
+...     print("Еще не начали продавать")
+... elif not income:
+...    print("Ничего не заработали")
+...
+Еще не начали продавать
+
+```
+
+## Управление потоком
+
+### if - проверка условия
+Оператор if используется для выполнения каких-либо действий при выполнении условия.
+
+```
+>>> company = "my.com"
+>>> if "my" in company:
+...    print("Условие выполнено")
+...
+Условие выполнено
+
+>>> company = "example.net"
+>>> if "my" in company or company.endswith(".net"):
+...    print("Условие выполнено")
+...
+Условие выполнено
+
+```
+
+### if - else
+Оператор else позволяет выполнить какой-либо код, если условие в блоке if не выполнилось.
+
+```
+company = "google.com"
+
+if "my" in company:
+    print("Условие выполнено!")
+else:
+    print("Условие не выполнено!")
+
+Условие не выполнено!
+
+```
+
+### if - elif - else
+Понятно.
+
+## Аналог тернарного оператора
+
+```
+>>> score_1 = 5
+>>> score_2 = 0
+>>> winner = "Argentina" if score_1 > score_2 else "Jamaica"
+>>> print(winner)
+Argentina
+
+```
+
+## while
+
+```
+>>> i = 0
+>>> while i < 100:
+...    i += 1
+...
+>>> print(i)
+100
+
+```
+
+## Оператор continue
+
+```
+>>> result = 0
+>>> for i in range(10):
+...     if i % 2 != 0:
+...         continue
+...     result += i
+...     print(result)
+...
+0
+2
+6
+12
+20
+
+```
+
+
+
+
 
 
 
